@@ -6,5 +6,16 @@
   "repository": "git@github.com:igorexec/react-flip-flip.git",
   "author": "Igor Cheliadinski",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "build": "webpack"
+  },
+  "peerDependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10"
+  }
 }
